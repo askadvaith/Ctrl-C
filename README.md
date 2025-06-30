@@ -6,13 +6,13 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)](https://pypi.org/project/ctrlc-cli/)
 
 
-Because sometimes you really just want to Ctrl+C your whole project context for an LLM without manually sifting through a minefield of `.git`, `__pycache__`, and a million other CSVs.
+Copy only what matters! Ctrl+C your whole codebase (not your .git, __pycache__, or random CSVs) and prep your project for LLMs in one go.
 
 ---
 
 ## What is Ctrl+C?
 
-Ctrl+C is a simple Python CLI tool that **packages your entire codebase into a single file**, making it **easy to provide complete project context to an LLM** for understanding or analysis. It uses ignore files, size filters, and compression options to make the output just right. No more manual copy-pasting code context over and over; **one simple command and you're set for vibe coding galore :)**
+Ctrl+C is a simple Python CLI tool that **formats and packages your entire codebase into a single file**, making it **easy to provide complete project context to an LLM** for understanding or analysis. It uses ignore files, size filters, and compression options to make the output just right. No more manual copy-pasting code context over and over; **one simple command and you're set for vibe coding galore :)**
 <br/>
 ## Installation
 
