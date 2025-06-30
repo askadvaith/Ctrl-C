@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "ctrlc-cli"
-version = "1.0.0"
+version = "1.0.1"
 description = "Bundle project codebase into text or compressed outputs for easy LLM ingestion, debugging and sharing"
 authors = ["Advaith Sanil Kumar advaithsanilkumar@gmail.com"]
 license = "MIT"
 packages = [
     { include = "ctrlc" }
 ]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.8"
