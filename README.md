@@ -12,7 +12,7 @@ Because sometimes you really just want to Ctrl+C your whole project context for 
 
 ## What is Ctrl+C?
 
-Ctrl+C is a lightweight Python CLI tool that bundles up your entire codebase into a single context file. It uses ignore files, size filters, and compression options to make the output just right. No more manual copy-pasting code context over and over; one simple command and you're set :)
+Ctrl+C is a lightweight Python CLI tool that bundles up your entire codebase into a single context file. It uses ignore files, size filters, and compression options to make the output just right. No more manual copy-pasting code context over and over; **one simple command and you're set for vibe coding galore :)**
 <br/>
 ## Installation
 
