@@ -6,13 +6,13 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)](https://pypi.org/project/ctrlc-cli/)
 
 
-Because sometimes you really just want to Ctrl+C your whole project context for an LLM without manually sifting through a minefield of `.git`, `__pycache__`, and a million CSVs.
+Because sometimes you really just want to Ctrl+C your whole project context for an LLM without manually sifting through a minefield of `.git`, `__pycache__`, and a million other CSVs.
 
 ---
 
 ## What is Ctrl+C?
 
-Ctrl+C is a lightweight Python CLI tool that bundles up your entire codebase into a single context file. It uses ignore files, size filters, and compression options to make the output just right. No more manual copy-pasting code context over and over; **one simple command and you're set for vibe coding galore :)**
+Ctrl+C is a simple Python CLI tool that **packages your entire codebase into a single file**, making it **easy to provide complete project context to an LLM** for understanding or analysis. It uses ignore files, size filters, and compression options to make the output just right. No more manual copy-pasting code context over and over; **one simple command and you're set for vibe coding galore :)**
 <br/>
 ## Installation
 
@@ -32,11 +32,11 @@ This will walk through your codebase and save the formatted context to a `contex
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | `--ignore-files`        | Use ignore rules from `.gitignore`, `.contextignore`, or both. Options: `none`, `all`, `git` (only from `.gitignore`), `context` (only from `.contextignore`). Default: `all`. |
 | `--threshold`           | Skip files larger than this many bytes. Ideal for keeping massive files out of the bundle.                               |
-| `--compress`            | Compress the output file. Options: `none`, `gzip`, `zip`, `tar.gz`. Default: `none`.                                     |
+| `--compress`            | Compress the output file into a specified format. Options: `none`, `gzip`, `zip`, `tar.gz`. Default: `none`.                                     |
 | `--output`              | Name of the output file (without extension for compressed options). Default: `context.txt`.                              |
 
 ## Default Skips
-Ctrl+C comes with built-in ignore rules for common non-codebase related folders:
+Ctrl+C comes with built-in ignore rules for common non-codebase related folders/files:
 
 - `.git`, `.svn`, `.hg`, `__pycache__`
 - `node_modules`, `.DS_Store`, `.vscode`, `.env`, `.venv`
