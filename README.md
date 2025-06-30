@@ -6,7 +6,7 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)](https://pypi.org/project/ctrlc-cli/)
 
 
-Copy only what matters! Ctrl+C your whole codebase (not your .git, __pycache__, or random CSVs) and prep your project for LLMs in one go.
+Copy only what matters! Ctrl+C your whole codebase (not your `.git`, `__pycache__`, or random CSVs) and prep your project for LLMs in one go.
 
 ---
 
